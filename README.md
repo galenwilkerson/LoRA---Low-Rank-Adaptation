@@ -17,7 +17,7 @@ where:
 This equation shows that instead of applying a full-rank update to $W$, we apply a low-rank approximation, which significantly reduces the number of parameters and computation required for the update.
 
 
-We can also think of this as decomposing the bipartite graph $\DeltaW$ into graphs $A$ and $B$:
+We can also think of this as decomposing the bipartite graph $\Delta W$ into graphs $A$ and $B$:
 
 
 
