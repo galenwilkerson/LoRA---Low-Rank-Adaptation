@@ -9,9 +9,9 @@ $$
 $$
 
 where:
-- $ W $ is the original weight matrix.
-- $ \Delta W $ is the full-rank weight update.
-- $ A $ and $ B $ are low-rank matrices such that $ \Delta W \approx AB $.
+- $$ W $$ is the original weight matrix.
+- $$ \Delta W $$ is the full-rank weight update.
+- $$ A $$ and $$ B $$ are low-rank matrices such that $$ \Delta W \approx AB $$.
 
 This equation shows that instead of applying a full-rank update to \( W \), we apply a low-rank approximation, which significantly reduces the number of parameters and computation required for the update.
 
