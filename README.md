@@ -35,9 +35,7 @@ LoRA is based on the principle of low-rank decomposition. In the context of atte
 ### Basic Concept
 
 Given a weight matrix $W$, LoRA approximates it as:
-$$ 
-W \approx A \times B 
-$$
+$ W \approx A \times B $
 where $A$ and $B$ are low-rank matrices with $r \ll d$, and $d$ is the dimension of the original matrix.
 
 ### Benefits
