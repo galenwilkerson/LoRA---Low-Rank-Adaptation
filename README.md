@@ -1,6 +1,5 @@
 # LoRA: Low-Rank Adaptation
 
-
 ### Key Idea:
 **The key idea of LoRA (Low-Rank Adaptation) in the context of adapting large pre-trained models is to approximate the weight updates with low-rank matrices. This can be represented by the following matrix equation:**
 
