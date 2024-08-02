@@ -8,8 +8,6 @@ This repository contains code and examples for implementing Low-Rank Adaptation 
 
 ## Getting Started
 
-
-
 ### Running the Notebook
 
 To explore the implementation and results, open the Jupyter notebook:
