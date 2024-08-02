@@ -14,7 +14,7 @@ where:
 
 
 
-This equation shows that instead of applying a full-rank update to \( W \), we apply a low-rank approximation, which significantly reduces the number of parameters and computation required for the update.
+This equation shows that instead of applying a full-rank update to $W$, we apply a low-rank approximation, which significantly reduces the number of parameters and computation required for the update.
 
 This repository contains code and examples for implementing Low-Rank Adaptation (LoRA) in neural networks, particularly focusing on attention mechanisms. LoRA efficiently adapts large pre-trained models to specific tasks by injecting trainable low-rank matrices into the model's layers, reducing computational resources and time required for fine-tuning.
 
