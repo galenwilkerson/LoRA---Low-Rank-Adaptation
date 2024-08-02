@@ -1,5 +1,20 @@
 # LoRA: Low-Rank Adaptation
 
+
+### Key Idea:
+**The key idea of LoRA (Low-Rank Adaptation) in the context of adapting large pre-trained models is to approximate the weight updates with low-rank matrices. This can be represented by the following matrix equation:**
+
+$$
+\huge{W + \Delta W \approx W + AB}
+$$
+
+where:
+- $ W $ is the original weight matrix.
+- $ \Delta W $ is the full-rank weight update.
+- $ A $ and $ B $ are low-rank matrices such that $ \Delta W \approx AB $.
+
+This equation shows that instead of applying a full-rank update to \( W \), we apply a low-rank approximation, which significantly reduces the number of parameters and computation required for the update.
+
 This repository contains code and examples for implementing Low-Rank Adaptation (LoRA) in neural networks, particularly focusing on attention mechanisms. LoRA efficiently adapts large pre-trained models to specific tasks by injecting trainable low-rank matrices into the model's layers, reducing computational resources and time required for fine-tuning.
 
 ## Repository Contents
