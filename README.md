@@ -18,9 +18,9 @@ This equation shows that instead of applying a full-rank update to $W$, we apply
 
 
 We can also think of this as decomposing the bipartite graph $\Delta W$ into graphs $A$ and $B$:
-
-<img src="LoRA.png" alt="LoRA graph decomposition" width="400" height="200">
-
+<centering>
+<img src="LoRA.png" alt="LoRA graph decomposition" width="600" height="400">
+<\centering>
 
 
 
