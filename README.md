@@ -9,7 +9,7 @@ $$
 
 where:
 -  $W$ is the original weight matrix.
-- `\( \Delta W \)` is the full-rank weight update.
+- $\Delta W$ is the full-rank weight update.
 - `\( A \)` and `\( B \)` are low-rank matrices such that `\( \Delta W \approx AB \)`.
 
 
